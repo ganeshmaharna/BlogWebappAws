@@ -20,5 +20,8 @@ router.delete('/delete/:id',authenticateToken,deletePost);
 router.post('/comment/new',authenticateToken,newComment);
 router.get('/comments/:id',authenticateToken,getComments);
 router.delete('/comment/delete/:id',authenticateToken,deleteComment);
+router.get("/home",(req,res)=>{
+    return res.json({message:"okk"})
+})
 export default router;
 
