@@ -17,7 +17,7 @@ app.use(bodyParser.json({extended: true}))
 app.use(bodyParser.urlencoded({extended: true}))
 app.use('/',Router);//here we use the router
 
-const PORT=8000;
+const PORT=8001;
 app.listen(PORT,()=>{
     console.log(`Server is started on the PORT ${PORT}`);
 });
