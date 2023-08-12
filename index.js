@@ -10,6 +10,7 @@ import Router from './routes/route.js';//here we import all the router
 dotenv.config();
 
 const app = express();
+//This is hello
 //this is to prevent browser cor error
 app.use(cors());
 app.use(bodyParser.json({extended: true}))
